@@ -5,7 +5,7 @@ import { BaseEntity } from '../../../../app/model/entity/base.entity';
   name: 'session',
   schema: 'auth',
 })
-export class Session extends BaseEntity {
+export class SessionEntity extends BaseEntity {
   @Column('uuid')
   user_id: string;
 

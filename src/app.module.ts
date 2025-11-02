@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { AuthModule } from './auth/auth.module';
-import { PredictionModule } from './prediction/prediction.module';
+import { AuthModule } from './module/auth/auth.module';
+import { PredictionModule } from './module/prediction/prediction.module';
 import { BullModule } from '@nestjs/bullmq';
 import configuration from './config/configuration';
 
